@@ -1,6 +1,6 @@
 # Flask-Bulma
 
-> UIkit for use in Flask
+> Bulma CSS for use in Flask
 
 Usage
 -----
