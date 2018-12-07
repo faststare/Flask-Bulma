@@ -1,2 +1,20 @@
 # Flask-Bulma
-Flask Extension for Bulma CSS inspired by Flask-UIkit
+
+> UIkit for use in Flask
+
+Usage
+-----
+
+Here is an example:
+```
+  from flask_bulma import Bulma
+
+  [...]
+
+  Bulma(app)
+```
+
+Reference
+-----
+
+[Flask-UIkit](https://github.com/kwkwc/flask-uikit/)
