@@ -1,0 +1,34 @@
+{% block doc -%}
+    <!DOCTYPE html>
+    <html{% block html_attribs %}{% endblock html_attribs %}>
+    {%- block html %}
+    <head>
+    {%- block head %}
+    <title>{% block title %}{{title|default}}{% endblock title %}</title>
+
+    {%- block metas %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%- endblock metas %}
+
+    {%- block styles %}
+    <!-- BULMA -->
+    <link href="{{bulma_find_resource('css/bulma.css', cdn='local')}}" rel="stylesheet">
+    {%- endblock styles %}
+    {%- endblock head %}
+    </head>
+    <body{% block body_attribs %}{% endblock body_attribs %}>
+    {% block body -%}
+    {% block navbar %}
+    {%- endblock navbar %}
+    {% block content -%}
+    {%- endblock content %}
+
+    {% block scripts %}
+    <script src="{{bulma_find_resource('jquery.js', cdn='local')}}"></script>
+    {%- endblock scripts %}
+    {%- endblock body %}
+    </body>
+    {%- endblock html %}
+    </html>
+{% endblock doc -%}
