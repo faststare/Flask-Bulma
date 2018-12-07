@@ -14,10 +14,10 @@ Here is an example:
 
   bulma = Bulma(app)
 ```
-'''
+```
 <index.html>
 {% extends "bulma/base.html" %}
-'''
+```
 
 Reference
 -----
