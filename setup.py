@@ -10,7 +10,7 @@ def read(fname):
 setup(
     name='Flask-Bulma',
     version='0.0.1',
-    url='',
+    url='https://github.com/faststare/Flask-Bulma',
     license='MIT',
     author='fastare08',
     author_email='adriantfelismino@gmail.com',
