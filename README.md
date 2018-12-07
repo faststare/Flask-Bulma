@@ -7,13 +7,15 @@ Usage
 
 Here is an example:
 ```
+<app.py>
   from flask_bulma import Bulma
 
   [...]
 
-  Bulma(app)
+  bulma = Bulma(app)
 ```
-
+<index.html>
+{% extends "bulma/base.html" %}
 Reference
 -----
 
